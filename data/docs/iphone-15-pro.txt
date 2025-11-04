@@ -1,0 +1,70 @@
+iPhone 15 Pro - Technical Specifications
+
+Display
+- 6.1-inch Super Retina XDR display
+- 2556-by-1179-pixel resolution at 460 ppi
+- ProMotion technology with adaptive refresh rates up to 120Hz
+- Always-On display
+- Dynamic Island
+- HDR display with 2000 nits peak brightness
+
+Chip
+- A17 Pro chip
+- New 6-core CPU with 2 performance and 4 efficiency cores
+- New 6-core GPU
+- New 16-core Neural Engine
+
+Camera System
+- Pro camera system: 48MP Main, 12MP Ultra Wide, 12MP Telephoto
+- Main: ƒ/1.78 aperture
+- Ultra Wide: ƒ/2.2 aperture
+- Telephoto: ƒ/2.8 aperture with 3x optical zoom
+- Next-generation portraits with Focus and Depth Control
+- Night mode, Deep Fusion, Smart HDR 5
+- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps
+- ProRes video recording up to 4K at 60 fps
+
+Power and Battery
+- Battery capacity: 3274 mAh
+- Video playback: Up to 23 hours
+- Video playback (streamed): Up to 20 hours
+- Audio playback: Up to 75 hours
+- Fast-charge capable: Up to 50% charge in around 30 minutes with 20W adapter or higher
+- MagSafe wireless charging up to 15W
+- Qi wireless charging up to 7.5W
+
+Design and Build
+- Titanium design with textured matte glass back
+- Ceramic Shield front
+- Action button
+- Available in Natural Titanium, Blue Titanium, White Titanium, Black Titanium
+- Dimensions: 146.6 x 70.6 x 8.25 mm
+- Weight: 187 grams
+
+Storage Options
+- 128GB, 256GB, 512GB, 1TB
+
+Connectivity
+- 5G capable
+- Wi-Fi 6E (802.11ax)
+- Bluetooth 5.3
+- USB-C connector with USB 3 support
+- Face ID for secure authentication
+
+Operating System
+- iOS 17
+
+Price
+- Starting at $999
+
+Release Date
+- September 2023
+
+Key Features
+- Titanium design with Action button
+- A17 Pro chip for industry-leading performance
+- 3x Telephoto camera for optical zoom
+- Customizable Action button
+- USB-C with USB 3
+
+

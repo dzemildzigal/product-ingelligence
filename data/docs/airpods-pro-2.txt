@@ -1,0 +1,86 @@
+AirPods Pro 2nd Generation - Technical Specifications
+
+Audio Technology
+- Apple H2 chip
+- Custom high-excursion Apple driver
+- Custom high dynamic range amplifier
+- Adaptive EQ
+- Adaptive Audio
+- Active Noise Cancellation
+- Transparency mode
+- Conversation Awareness
+- Personalized Spatial Audio with dynamic head tracking
+
+Battery Life
+- Up to 6 hours of listening time with ANC on (single charge)
+- Up to 7 hours with ANC off
+- Up to 30 hours total with MagSafe Charging Case
+- 5 minutes charge provides around 1 hour of listening time
+
+Charging Case
+- MagSafe Charging Case with speaker and lanyard loop
+- USB-C connector
+- Compatible with Apple Watch charger
+- Qi-certified wireless charging
+- Built-in speaker for Find My
+- IP54 dust, sweat, and water resistant (earbuds and case)
+
+Sensors
+- Dual beamforming microphones
+- Inward-facing microphone
+- Skin-detect sensor
+- Motion-detecting accelerometer
+- Speech-detecting accelerometer
+- Touch control
+
+Controls
+- Press once to play, pause, or answer a call
+- Press twice to skip forward
+- Press three times to skip back
+- Press and hold to switch between Active Noise Cancellation and Transparency mode
+- Swipe volume control on stem
+- "Hey Siri" or just "Siri"
+
+Connectivity
+- Bluetooth 5.3
+- Find My network support
+- Precision Finding with U1 chip in case
+
+Size and Weight
+- Earbuds: 30.9 x 21.8 x 24.0 mm, 5.3 grams each
+- MagSafe Charging Case: 50.8 x 45.2 x 21.7 mm, 50.8 grams
+
+In the Box
+- AirPods Pro (2nd generation)
+- MagSafe Charging Case (USB-C)
+- Silicone ear tips (four sizes: XS, S, M, L)
+- USB-C Charge Cable
+- Documentation
+
+Accessibility
+- Live Listen audio
+- Headphone Accommodations
+- Conversation Boost
+
+Operating System Requirements
+- iPhone and iPod touch models with iOS 16 or later
+- iPad models with iPadOS 16 or later
+- Apple Watch with watchOS 9 or later
+- Mac with macOS Ventura or later
+- Apple TV with tvOS 16 or later
+
+Price
+- $249
+
+Release Date
+- September 2023 (USB-C version)
+
+Key Features
+- Up to 2x more Active Noise Cancellation
+- Adaptive Audio dynamically adjusts noise control
+- Personalized Spatial Audio
+- USB-C charging
+- Precision Finding
+- Dust, sweat, and water resistant (IP54)
+
+

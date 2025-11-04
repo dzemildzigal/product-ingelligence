@@ -1,0 +1,74 @@
+MacBook Pro 16-inch M3 Max - Technical Specifications
+
+Display
+- 16.2-inch Liquid Retina XDR display
+- 3456-by-2234 native resolution at 254 ppi
+- XDR brightness: 1000 nits sustained, 1600 nits peak (HDR content only)
+- ProMotion technology for adaptive refresh rates up to 120Hz
+- Wide color (P3)
+- True Tone technology
+
+Chip
+- Apple M3 Max chip
+- Up to 16-core CPU with up to 12 performance cores and 4 efficiency cores
+- Up to 40-core GPU
+- Up to 128GB unified memory
+- 400GB/s memory bandwidth
+- 16-core Neural Engine
+
+Storage
+- Configurable to 1TB, 2TB, 4TB, or 8TB SSD
+
+Battery and Power
+- Built-in 100-watt-hour lithium-polymer battery
+- Up to 22 hours Apple TV app movie playback
+- Up to 15 hours wireless web
+- 140W USB-C Power Adapter
+- Fast-charge capable with 140W adapter
+
+Memory
+- 36GB, 48GB, 64GB, or 128GB unified memory
+
+Camera and Audio
+- 1080p FaceTime HD camera
+- High-fidelity six-speaker sound system with force-cancelling woofers
+- Wide stereo sound
+- Spatial audio support with Dolby Atmos
+- Studio-quality three-mic array with directional beamforming
+
+Ports and Connectivity
+- Three Thunderbolt 4 (USB-C) ports with support for charging, DisplayPort, Thunderbolt 4 (up to 40Gb/s), USB 4 (up to 40Gb/s)
+- HDMI port
+- SDXC card slot
+- MagSafe 3 port
+- 3.5 mm headphone jack
+- Wi-Fi 6E (802.11ax)
+- Bluetooth 5.3
+
+Keyboard and Trackpad
+- Backlit Magic Keyboard with 78 (U.S.) or 79 (ISO) keys including 12 function keys and 4 arrow keys in an inverted‑T arrangement
+- Touch ID sensor
+- Force Touch trackpad
+
+Design
+- Space Black or Silver aluminum
+- Dimensions: 35.57 x 24.81 x 1.68 cm
+- Weight: 2.16 kg
+
+Operating System
+- macOS Sonoma
+
+Price
+- Starting at $3,499
+
+Release Date
+- November 2023
+
+Key Features
+- M3 Max chip for extreme performance
+- Longest battery life ever in a Mac
+- Stunning Liquid Retina XDR display
+- Advanced thermal architecture
+- Professional connectivity with Thunderbolt 4
+
+

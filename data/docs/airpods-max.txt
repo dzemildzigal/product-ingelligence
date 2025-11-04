@@ -1,0 +1,89 @@
+AirPods Max - Technical Specifications
+
+Audio Technology
+- Apple H1 chip in each ear cup
+- Custom acoustic design
+- 40 mm Apple-designed dynamic driver
+- Active Noise Cancellation
+- Transparency mode
+- Adaptive EQ
+- Spatial Audio with dynamic head tracking
+- Computational audio
+
+Battery Life
+- Up to 20 hours of listening time with ANC or Transparency mode enabled
+- Up to 20 hours of movie playback with spatial audio enabled
+- Up to 20 hours of talk time with ANC enabled
+- 5 minutes charge provides around 1.5 hours of listening time
+
+Charging
+- Lightning connector for charging
+- Smart Case for ultra-low-power state
+
+Sensors
+- Nine microphones total
+- Eight microphones for Active Noise Cancellation
+- Three microphones for voice pickup
+- Optical sensor (each ear cup)
+- Position sensor (each ear cup)
+- Case-detect sensor (each ear cup)
+- Accelerometer (left ear cup)
+- Gyroscope (left ear cup)
+
+Controls
+- Digital Crown for volume control, play/pause, skip tracks, answer/end calls, and activate Siri
+- Noise control button to switch between Active Noise Cancellation and Transparency mode
+- "Hey Siri" or just "Siri"
+
+Connectivity
+- Bluetooth 5.0
+- Apple H1 chip for seamless device switching
+
+Design
+- Breathable knit mesh canopy
+- Memory foam ear cushions
+- Stainless steel frame and headband
+- Telescoping arms
+- Available in Space Gray, Silver, Pink, Green, Sky Blue
+
+Size and Weight
+- Height: 187.3 mm
+- Width: 168.6 mm
+- Depth: 83.4 mm
+- Weight: 384.8 grams
+
+In the Box
+- AirPods Max
+- Smart Case
+- Lightning to USB-C Cable
+- Documentation
+
+Accessibility
+- Live Listen audio
+- Headphone Accommodations
+- Announce Notifications
+
+Operating System Requirements
+- iPhone and iPod touch models with iOS 14.3 or later
+- iPad models with iPadOS 14.3 or later
+- Apple Watch with watchOS 7.2 or later
+- Mac with macOS Big Sur 11.1 or later
+- Apple TV with tvOS 14.3 or later
+
+Price
+- $549
+
+Release Date
+- December 2020
+
+Key Features
+- High-fidelity audio with computational audio
+- Adaptive EQ for sound optimization
+- Active Noise Cancellation with Transparency mode
+- Spatial Audio with dynamic head tracking
+- Premium materials and design
+- Up to 20 hours of battery life
+- Digital Crown for precise control
+- Seamless switching between Apple devices
+
+

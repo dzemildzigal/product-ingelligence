@@ -1,0 +1,69 @@
+iPhone 15 - Technical Specifications
+
+Display
+- 6.1-inch Super Retina XDR display
+- 2556-by-1179-pixel resolution at 460 ppi
+- Dynamic Island
+- HDR display with 1600 nits peak brightness
+- True Tone display
+- Wide color (P3)
+
+Chip
+- A16 Bionic chip
+- 6-core CPU with 2 performance and 4 efficiency cores
+- 5-core GPU
+- 16-core Neural Engine
+
+Camera System
+- Advanced dual-camera system: 48MP Main and 12MP Ultra Wide
+- Main: ƒ/1.6 aperture
+- Ultra Wide: ƒ/2.4 aperture
+- 2x Telephoto: 12MP, ƒ/1.6 aperture
+- Next-generation portraits with Focus and Depth Control
+- Night mode, Deep Fusion, Smart HDR 5
+- 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps
+- Cinematic mode up to 4K HDR at 30 fps
+
+Power and Battery
+- Battery capacity: 3349 mAh
+- Video playback: Up to 20 hours
+- Video playback (streamed): Up to 16 hours
+- Audio playback: Up to 80 hours
+- Fast-charge capable: Up to 50% charge in around 30 minutes with 20W adapter or higher
+- MagSafe wireless charging up to 15W
+- Qi wireless charging up to 7.5W
+
+Design and Build
+- Color-infused glass and aluminum design
+- Ceramic Shield front
+- Available in Pink, Yellow, Green, Blue, Black
+- Dimensions: 147.6 x 71.6 x 7.80 mm
+- Weight: 171 grams
+
+Storage Options
+- 128GB, 256GB, 512GB
+
+Connectivity
+- 5G capable
+- Wi-Fi 6 (802.11ax)
+- Bluetooth 5.3
+- USB-C connector with USB 2 support
+- Face ID for secure authentication
+
+Operating System
+- iOS 17
+
+Price
+- Starting at $799
+
+Release Date
+- September 2023
+
+Key Features
+- Dynamic Island for immersive experience
+- 48MP Main camera for incredible detail
+- USB-C connector
+- Advanced camera system with 2x Telephoto
+- All-day battery life
+
+

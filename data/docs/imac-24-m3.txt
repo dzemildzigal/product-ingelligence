@@ -1,0 +1,79 @@
+iMac 24-inch M3 - Technical Specifications
+
+Display
+- 24-inch 4.5K Retina display
+- 4480-by-2520 resolution at 218 ppi
+- 500 nits brightness
+- Wide color (P3)
+- True Tone technology
+
+Chip
+- Apple M3 chip
+- 8-core CPU with 4 performance cores and 4 efficiency cores
+- 8-core or 10-core GPU
+- Hardware-accelerated ray tracing
+- 16-core Neural Engine
+- 100GB/s memory bandwidth
+
+Storage
+- Configurable to 256GB, 512GB, 1TB, or 2TB SSD
+
+Memory
+- 8GB, 16GB, or 24GB unified memory
+
+Camera and Audio
+- 1080p FaceTime HD camera
+- Six-speaker system with force-cancelling woofers
+- Wide stereo sound
+- Spatial audio support with Dolby Atmos
+- Studio-quality three-mic array with directional beamforming
+
+Ports and Connectivity
+Two Thunderbolt / USB 4 ports (or four on higher-end configurations):
+- Charging
+- DisplayPort
+- Thunderbolt 3 (up to 40Gb/s)
+- USB 4 (up to 40Gb/s)
+
+Additional (on 4-port models):
+- Two additional USB 3 ports
+- Gigabit Ethernet
+
+All models:
+- 3.5 mm headphone jack
+- Wi-Fi 6E (802.11ax)
+- Bluetooth 5.3
+
+Input Devices
+- Magic Keyboard with Touch ID
+- Magic Mouse or Magic Trackpad
+
+Design
+- Green, Yellow, Orange, Pink, Purple, Blue, Silver aluminum
+- Ultra-thin 11.5 mm design
+- Dimensions: 54.7 x 46.1 x 14.7 cm (with stand)
+- Weight: 4.43 kg (4-port model)
+
+Power
+- 143W power adapter (4-port model)
+- Built-in power supply
+
+Operating System
+- macOS Sonoma
+
+Price
+- Starting at $1,299
+
+Release Date
+- November 2023
+
+Key Features
+- Stunning 4.5K Retina display
+- M3 chip with next-generation GPU
+- Vibrant color options
+- All-in-one design with minimal cables
+- 1080p FaceTime camera
+- Six-speaker sound system
+- Compact and elegant footprint
+
+

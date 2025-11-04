@@ -1,0 +1,80 @@
+AirPods 3rd Generation - Technical Specifications
+
+Audio Technology
+- Apple H1 chip
+- Custom high-excursion Apple driver
+- Custom high dynamic range amplifier
+- Adaptive EQ
+- Spatial Audio with dynamic head tracking
+- Computational audio
+
+Battery Life
+- Up to 6 hours of listening time (single charge)
+- Up to 4 hours of talk time (single charge)
+- Up to 30 hours total with MagSafe Charging Case
+- 5 minutes charge provides around 1 hour of listening time
+
+Charging Case
+- MagSafe Charging Case
+- Lightning connector
+- Qi-certified wireless charging compatible
+- IPX4 sweat and water resistant (earbuds and case)
+
+Sensors
+- Dual beamforming microphones
+- Inward-facing microphone
+- Skin-detect sensor
+- Motion-detecting accelerometer
+- Speech-detecting accelerometer
+
+Controls
+- Press once to play, pause, or answer a call
+- Press twice to skip forward
+- Press three times to skip back
+- Press and hold for Siri
+- "Hey Siri" or just "Siri"
+
+Connectivity
+- Bluetooth 5.0
+- Automatic device switching
+- Audio Sharing between two sets of AirPods
+
+Size and Weight
+- Earbuds: 30.79 x 18.26 x 19.21 mm, 4.28 grams each
+- MagSafe Charging Case: 46.40 x 54.40 x 21.38 mm, 37.91 grams
+
+In the Box
+- AirPods (3rd generation)
+- MagSafe Charging Case
+- Lightning to USB-C Cable
+- Documentation
+
+Accessibility
+- Live Listen audio
+- Headphone Accommodations
+- Announce Notifications
+
+Operating System Requirements
+- iPhone and iPod touch models with iOS 15.1 or later
+- iPad models with iPadOS 15.1 or later
+- Apple Watch with watchOS 8.1 or later
+- Mac with macOS Monterey 12.1 or later
+- Apple TV with tvOS 15.1 or later
+
+Price
+- $169
+
+Release Date
+- October 2021
+
+Key Features
+- Spatial Audio with dynamic head tracking
+- Adaptive EQ for personalized sound
+- Longer battery life than previous generation
+- Sweat and water resistant (IPX4)
+- MagSafe charging
+- Force sensor for easy control
+- Contoured design for comfortable fit
+- Automatic switching between devices
+
+

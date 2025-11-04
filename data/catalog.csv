@@ -1,0 +1,15 @@
+product_id,category,title,brand,model,price,description
+iphone-15-pro-max,iPhone,iPhone 15 Pro Max,Apple,iPhone 15 Pro Max,1199,Premium flagship with titanium design and A17 Pro chip
+iphone-15-pro,iPhone,iPhone 15 Pro,Apple,iPhone 15 Pro,999,Professional iPhone with advanced camera system and A17 Pro
+iphone-15,iPhone,iPhone 15,Apple,iPhone 15,799,Modern iPhone with Dynamic Island and advanced dual-camera system
+macbook-pro-16-m3-max,MacBook,MacBook Pro 16-inch M3 Max,Apple,MacBook Pro 16,3499,Most powerful MacBook Pro with M3 Max chip and stunning display
+macbook-air-15-m2,MacBook,MacBook Air 15-inch M2,Apple,MacBook Air 15,1299,Spacious and portable with M2 chip and all-day battery life
+macbook-pro-14-m3,MacBook,MacBook Pro 14-inch M3,Apple,MacBook Pro 14,1599,Compact professional laptop with M3 chip and ProMotion display
+mac-studio-m2-ultra,Mac,Mac Studio M2 Ultra,Apple,Mac Studio,3999,Ultimate desktop performance with M2 Ultra chip
+mac-mini-m2-pro,Mac,Mac Mini M2 Pro,Apple,Mac Mini,1299,Compact desktop powerhouse with M2 Pro chip
+imac-24-m3,Mac,iMac 24-inch M3,Apple,iMac 24,1299,All-in-one desktop with stunning 4.5K Retina display and M3 chip
+airpods-pro-2,AirPods,AirPods Pro 2nd Generation,Apple,AirPods Pro 2,249,Premium wireless earbuds with active noise cancellation
+airpods-max,AirPods,AirPods Max,Apple,AirPods Max,549,Over-ear headphones with computational audio and premium design
+airpods-3,AirPods,AirPods 3rd Generation,Apple,AirPods 3,169,Wireless earbuds with spatial audio and adaptive EQ
+
+

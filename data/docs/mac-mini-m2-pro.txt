@@ -1,0 +1,63 @@
+Mac Mini M2 Pro - Technical Specifications
+
+Chip
+- Apple M2 Pro chip
+- 10-core CPU or 12-core CPU with up to 8 performance cores and 4 efficiency cores
+- 16-core GPU or 19-core GPU
+- 16-core Neural Engine
+- 200GB/s memory bandwidth
+
+Storage
+- Configurable to 512GB, 1TB, 2TB, 4TB, or 8TB SSD
+
+Memory
+- 16GB or 32GB unified memory
+
+Ports and Connectivity
+Front:
+- Two Thunderbolt 4 (USB-C) ports
+
+Back:
+- Two Thunderbolt 4 (USB-C) ports
+- Two USB-A ports
+- One HDMI port
+- One Gigabit Ethernet port (configurable to 10Gb Ethernet)
+- One 3.5 mm headphone jack
+
+Wireless:
+- Wi-Fi 6E (802.11ax)
+- Bluetooth 5.3
+
+Display Support
+- Supports up to three displays
+- Two displays with up to 6K resolution at 60Hz over Thunderbolt and one display with up to 4K resolution at 144Hz over HDMI
+
+Audio
+- 3.5 mm headphone jack with advanced support for high-impedance headphones
+
+Power
+- 150W power supply
+
+Design
+- Silver aluminum
+- Dimensions: 19.7 x 19.7 x 3.6 cm
+- Weight: 1.3 kg
+
+Operating System
+- macOS Sonoma
+
+Price
+- Starting at $1,299
+
+Release Date
+- January 2023
+
+Key Features
+- M2 Pro chip for powerful performance
+- Compact design that fits anywhere
+- Extensive connectivity with Thunderbolt 4
+- Supports up to three displays
+- Configurable Ethernet up to 10Gb
+- Energy efficient
+
+

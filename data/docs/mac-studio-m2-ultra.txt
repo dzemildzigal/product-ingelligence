@@ -1,0 +1,68 @@
+Mac Studio M2 Ultra - Technical Specifications
+
+Chip
+- Apple M2 Ultra chip
+- 24-core CPU with 16 performance cores and 8 efficiency cores
+- Up to 76-core GPU
+- 32-core Neural Engine
+- 800GB/s memory bandwidth
+- Up to 192GB unified memory
+
+Storage
+- Configurable to 1TB, 2TB, 4TB, or 8TB SSD
+
+Memory
+- 64GB, 128GB, or 192GB unified memory
+
+Ports and Connectivity
+Front:
+- Two Thunderbolt 4 (USB-C) ports
+- One SDXC card slot
+
+Back:
+- Four Thunderbolt 4 (USB-C) ports
+- Two USB-A ports
+- One HDMI port
+- One 10Gb Ethernet port
+- One 3.5 mm headphone jack
+
+Wireless:
+- Wi-Fi 6E (802.11ax)
+- Bluetooth 5.3
+
+Display Support
+- Supports up to six Pro Display XDRs
+- Simultaneously supports up to five displays total
+- Up to four 6K displays at 60Hz over Thunderbolt and one 4K display at 144Hz over HDMI
+
+Audio
+- High-fidelity six-speaker system
+- Studio-quality three-mic array with directional beamforming
+- 3.5 mm headphone jack with advanced support for high-impedance headphones
+
+Power
+- 295W power supply
+
+Design
+- Silver aluminum
+- Dimensions: 19.7 x 19.7 x 9.5 cm
+- Weight: 2.8 kg
+
+Operating System
+- macOS Sonoma
+
+Price
+- Starting at $3,999
+
+Release Date
+- June 2023
+
+Key Features
+- M2 Ultra chip for extraordinary performance
+- Supports up to six displays
+- Extensive connectivity with Thunderbolt 4
+- Compact desktop design
+- Professional-grade audio
+- Advanced thermal system for sustained performance
+
+

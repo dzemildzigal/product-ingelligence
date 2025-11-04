@@ -1,0 +1,70 @@
+MacBook Air 15-inch M2 - Technical Specifications
+
+Display
+- 15.3-inch Liquid Retina display
+- 2880-by-1864 native resolution at 224 ppi
+- 500 nits brightness
+- Wide color (P3)
+- True Tone technology
+
+Chip
+- Apple M2 chip
+- 8-core CPU with 4 performance cores and 4 efficiency cores
+- 10-core GPU
+- 16-core Neural Engine
+- 100GB/s memory bandwidth
+
+Storage
+- Configurable to 256GB, 512GB, 1TB, or 2TB SSD
+
+Battery and Power
+- Built-in 66.5-watt-hour lithium-polymer battery
+- Up to 18 hours Apple TV app movie playback
+- Up to 15 hours wireless web
+- 35W Dual USB-C Port Power Adapter (or 70W USB-C Power Adapter)
+- Fast-charge capable with 70W adapter
+
+Memory
+- 8GB, 16GB, or 24GB unified memory
+
+Camera and Audio
+- 1080p FaceTime HD camera
+- Six-speaker sound system with force-cancelling woofers
+- Wide stereo sound
+- Spatial audio support with Dolby Atmos
+- Three-mic array with directional beamforming
+
+Ports and Connectivity
+- Two Thunderbolt / USB 4 ports with support for charging, DisplayPort, Thunderbolt 3 (up to 40Gb/s), USB 4 (up to 40Gb/s)
+- MagSafe 3 port
+- 3.5 mm headphone jack
+- Wi-Fi 6 (802.11ax)
+- Bluetooth 5.3
+
+Keyboard and Trackpad
+- Backlit Magic Keyboard with 78 (U.S.) or 79 (ISO) keys including 12 function keys and 4 arrow keys in an inverted‑T arrangement
+- Touch ID sensor
+- Force Touch trackpad
+
+Design
+- Midnight, Starlight, Space Gray, or Silver aluminum
+- Dimensions: 34.04 x 23.76 x 1.15 cm
+- Weight: 1.51 kg
+
+Operating System
+- macOS Sonoma
+
+Price
+- Starting at $1,299
+
+Release Date
+- June 2023
+
+Key Features
+- Spacious 15.3-inch Liquid Retina display
+- Impossibly thin and light design
+- M2 chip for fast performance
+- Up to 18 hours of battery life
+- Silent, fanless design
+
+
