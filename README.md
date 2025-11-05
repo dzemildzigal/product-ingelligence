@@ -17,7 +17,7 @@ A FastAPI microservice for product recognition from images and question answerin
 
 1) Install dependencies
 
-	 - Python 3.10+
+	 - Python 3.13.7
 	 - On Windows, install Visual C++ Build Tools if needed for some packages
 	 - Then install:
 
@@ -43,6 +43,48 @@ Alternatively, you can build the index manually:
 ```bash
 python tools/build_faiss_index.py
 ```
+
+## Docker
+
+You can run this service in a container. The image installs system dependencies (Tesseract OCR and zbar) required for OCR and barcode reading, and it exposes port 8000 with a healthcheck on `/healthz`.
+
+Build (without prebuilding the FAISS index):
+
+```bash
+docker build -t product-intel .
+```
+
+Build with prebuilt FAISS index (larger image, faster startup):
+
+```bash
+docker build -t product-intel --build-arg PREBUILD_INDEX=true .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 8000:8000 product-intel
+```
+
+Pass LLM configuration for external provider (optional):
+
+```bash
+docker run --rm -p 8000:8000 `
+	-e OPENAI_API_KEY=sk-your-key `
+	-e OPENAI_MODEL=gpt-4o-mini `
+	product-intel
+```
+
+Health check locally:
+
+```bash
+curl http://localhost:8000/healthz
+```
+
+Notes:
+
+- If `PREBUILD_INDEX=true` is set during build, the index is created inside the image from `data/docs`. If you change docs later, rebuild the image or let the app rebuild at container start.
+- The image is based on Python 3.11 (slim) and runs the service as a non-root user.
 
 ## Environment variables
 
