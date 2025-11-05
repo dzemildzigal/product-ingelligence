@@ -69,10 +69,10 @@ docker run --rm -p 8000:8000 product-intel
 Pass LLM configuration for external provider (optional):
 
 ```bash
-docker run --rm -p 8000:8000 `
-	-e OPENAI_API_KEY=sk-your-key `
-	-e OPENAI_MODEL=gpt-4o-mini `
-	product-intel
+docker run --rm -p 8000:8000 \
+  -e OPENAI_API_KEY=sk-your-key \
+  -e OPENAI_MODEL=gpt-4o-mini \
+  product-intel
 ```
 
 Health check locally:
@@ -129,7 +129,7 @@ bash-friendly curl examples:
 - Recognize (image-only):
 
 ```bash
-curl -X POST -F "image=@path\to\your\photo.jpg" http://localhost:8000/recognize
+curl -X POST -F "image=@path/to/your/photo.jpg" http://localhost:8000/recognize
 ```
 
 Expected response (example):
@@ -147,9 +147,9 @@ Expected response (example):
 - Q&A about a known product (JSON body):
 
 ```bash
-curl -X POST http://localhost:8000/products/iphone-15-pro/answer `
-	-H "Content-Type: application/json" `
-	-d '{"question": "What chip does it use?", "use_external_llm": false}'
+curl -X POST http://localhost:8000/products/iphone-15-pro/answer \
+  -H 'Content-Type: application/json' \
+  -d '{"question": "What chip does it use?", "use_external_llm": false}'
 ```
 
 Example response:
@@ -164,10 +164,10 @@ Example response:
 - One-shot recognize + answer (multipart form):
 
 ```bash
-curl -X POST http://localhost:8000/recognize-and-answer `
-	-F "image=@path\to\your\photo.jpg" `
-	-F "question=What is the display size?" `
-	-F "use_external_llm=false"
+curl -X POST http://localhost:8000/recognize-and-answer \
+  -F "image=@path/to/your/photo.jpg" \
+  -F "question=What is the display size?" \
+  -F "use_external_llm=false"
 ```
 
 Example response:
@@ -210,7 +210,7 @@ curl http://localhost:11434/api/version
 The app calls an OpenAI-compatible endpoint, so set:
 
 ```bash
-$env:OLLAMA_BASE_URL = "http://localhost:11434/v1"
+export OLLAMA_BASE_URL="http://localhost:11434/v1"
 ```
 
 ### Container networking: reaching Ollama from the API
