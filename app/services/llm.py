@@ -58,57 +58,55 @@ def _openai_chat_completion(messages: List[Dict[str, str]], *, model: str, base_
 def answer_question(question: str, contexts: List[Dict[str, Any]], use_external_llm: bool = False) -> str:
 	texts = [str(c.get("text", "")) for c in contexts]
 
+	# Build compact context block (shared for both providers)
+	context_lines: List[str] = []
+	for c in contexts:
+		src = str(c.get("source", ""))
+		txt = str(c.get("text", "")).strip()
+		if not txt:
+			continue
+		context_lines.append(f"- [{src}] {txt}")
+	context_block = "\n".join(context_lines) if context_lines else "(no context)"
+
+	# Select provider via boolean flag
 	if use_external_llm:
-		# OpenAI cloud path
 		base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
 		api_key = os.environ.get("OPENAI_API_KEY") or os.environ.get("LLM_API_KEY")
 		model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 	else:
-		# Local Ollama path
 		base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1")
 		api_key = os.environ.get("OLLAMA_API_KEY")  # typically not needed for local
 		model = os.environ.get("OLLAMA_MODEL", "gemma3n:e2b")
 
-		# Build compact context block
-		context_lines: List[str] = []
-		for c in contexts:
-			src = str(c.get("source", ""))
-			txt = str(c.get("text", "")).strip()
-			if not txt:
-				continue
-			context_lines.append(f"- [{src}] {txt}")
-		context_block = "\n".join(context_lines) if context_lines else "(no context)"
+	messages = [
+		{
+			"role": "system",
+			"content": (
+				"You are a helpful assistant that answers strictly using the provided context. "
+				"If the answer cannot be found in the context, say you don't know. Keep answers concise."
+			),
+		},
+		{
+			"role": "user",
+			"content": f"Question: {question}\n\nContext:\n{context_block}",
+		},
+	]
 
-		messages = [
-			{
-				"role": "system",
-				"content": (
-					"You are a helpful assistant that answers strictly using the provided context. "
-					"If the answer cannot be found in the context, say you don't know. Keep answers concise."
-				),
-			},
-			{
-				"role": "user",
-				"content": f"Question: {question}\n\nContext:\n{context_block}",
-			},
-		]
-
-		completion = _openai_chat_completion(
-			messages,
-			model=model,
-			base_url=base_url,
-			api_key=api_key,
-			max_tokens=400,
-			temperature=0.2,
-		)
-		if isinstance(completion, str) and completion.strip():
-			return completion.strip()
-		# fall through to heuristic on failure
+	completion = _openai_chat_completion(
+		messages,
+		model=model,
+		base_url=base_url,
+		api_key=api_key,
+		max_tokens=400,
+		temperature=0.2,
+	)
+	if isinstance(completion, str) and completion.strip():
+		return completion.strip()
 
 	# Heuristic fallback: return the first/best passage trimmed
 	if texts:
 		snippet = texts[0].strip()
-		return snippet if len(snippet) < 400 else snippet[:397] + "..."
+		return snippet
 
 	return "I'm not seeing enough information to answer from the local docs."
 

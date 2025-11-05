@@ -1,7 +1,8 @@
-from fastapi import APIRouter, File, UploadFile, HTTPException
+from fastapi import APIRouter, File, UploadFile, HTTPException, Depends
 from typing import List
 from app.services.ocr import extract_from_image_bytes
 from app.services.matcher import rank_catalog
+from app.schemas import RecognizeResponse, RecognizeParams
 
 
 router = APIRouter(
@@ -9,8 +10,11 @@ router = APIRouter(
     tags=["recognition"]
 )
 
-@router.post("")
-async def recognize_product_from_image(image: UploadFile = File(...)):
+@router.post("", response_model=RecognizeResponse)
+async def recognize_product_from_image(
+    image: UploadFile = File(...),
+    params: RecognizeParams = Depends(RecognizeParams.as_form),
+) -> RecognizeResponse:
     # Validate file type
     if not image.content_type or not image.content_type.startswith("image/"):
         raise HTTPException(status_code=400, detail="File must be an image")
@@ -39,13 +43,14 @@ async def recognize_product_from_image(image: UploadFile = File(...)):
 
     candidates: List[dict]
     if query_text:
-        candidates = rank_catalog(query_text, top_k=3)
+        top_k = max(1, int(params.top_k)) if isinstance(params.top_k, int) else 3
+        candidates = rank_catalog(query_text, top_k=top_k)
     else:
         candidates = []
 
     best_product_id = candidates[0]["product_id"] if candidates else None
 
-    return {
-        "candidates": candidates,
-        "best_product_id": best_product_id,
-    }
+    # Coerce to typed Candidate models for clearer validation
+    from app.schemas import Candidate
+    typed_candidates = [Candidate(**c) for c in candidates]
+    return RecognizeResponse(candidates=typed_candidates, best_product_id=best_product_id)
