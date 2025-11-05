@@ -84,7 +84,7 @@ curl http://localhost:8000/healthz
 Notes:
 
 - If `PREBUILD_INDEX=true` is set during build, the index is created inside the image from `data/docs`. If you change docs later, rebuild the image or let the app rebuild at container start.
-- The image is based on Python 3.11 (slim) and runs the service as a non-root user.
+- The image is based on Python 3.13.7 and runs the service as a non-root user.
 
 ## Environment variables
 
@@ -122,6 +122,51 @@ If the provider is unreachable or misconfigured, the service will fall back to r
 
 OpenAPI docs are available at `/docs` when running locally.
 
+## Local LLM (Ollama)
+
+To use the local LLM path (use_external_llm = false), install and run Ollama:
+
+1) Install Ollama
+	 - Windows/macOS: https://ollama.com/download
+	 - Linux: follow the official instructions (curl script) or package manager
+
+2) Start the server (usually auto-starts)
+
+```powershell
+ollama serve
+```
+
+3) Pull a model (default model in app)
+
+```powershell
+ollama pull gemma3n:e2b
+```
+
+4) Test the API
+
+```powershell
+curl http://localhost:11434/api/version
+```
+
+The app calls an OpenAI-compatible endpoint, so set:
+
+```powershell
+$env:OLLAMA_BASE_URL = "http://localhost:11434/v1"
+```
+
+### Container networking: reaching Ollama from the API
+
+If the API runs inside Docker and Ollama runs on your host, `localhost` inside the container is not your host. Use one of these:
+
+- Windows/macOS Docker Desktop:
+	- Set `OLLAMA_BASE_URL=http://host.docker.internal:11434/v1`
+
+- Linux:
+	- Run the container with host gateway entry and target `host.docker.internal`:
+		- `docker run --add-host host.docker.internal:host-gateway ...`
+		- `OLLAMA_BASE_URL=http://host.docker.internal:11434/v1`
+	- Or run with `--network host` (Linux only), then `http://localhost:11434/v1` works
+    
 ## Data and indexing
 
 - Index artifacts are written to `data/index/`:
